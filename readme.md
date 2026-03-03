@@ -22,9 +22,9 @@ Terminal commands:
 
 ## Editing the _prod.env_ File
 
-The Private Apps must have this permission: `STANDARD SCOPE: content`
+The Private Apps must have this permission: `STANDARD SCOPE: content`.
 
-```env
+```prod.env
 PAGE_ID = ID of the page you want to clone
 TOKEN_FROM = Private App token that has the Landing you want to copy
 TOKEN_TO = Private App token of the project that will receive the new Landing
