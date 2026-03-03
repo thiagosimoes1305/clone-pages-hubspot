@@ -1,0 +1,13 @@
+{
+  "name": "trickster",
+  "version": "1.0.0",
+  "description": "Create Landing Pages and Website Pages another Hubspot account",
+  "main": "index.js",
+  "scripts": {
+    "website": "node src/website.js",
+    "landing": "node src/landing.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
