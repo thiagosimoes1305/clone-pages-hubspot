@@ -1,4 +1,4 @@
-# Trickster : Clone Pages from one HubSpot account to another HubSpot account
+# Clone Pages from one HubSpot account to another HubSpot account
 
 <img src="https://img.shields.io/badge/nodejs-v16.14.2-brightgreen" /> <img src="https://img.shields.io/badge/dotenv-16.0.3-red" />
 
@@ -37,5 +37,3 @@ For the copy to work, you need to keep in mind a few things:
 - The theme and modules must already be correct and synchronized across the associated accounts.
 - The "UPDATED BY" column in the Pages and/or Websites list will display the name of the creator of the Private App.
 - The Page and/or Website URL will be set to the default URL of the source HubSpot account.
-
-[https://github.com/thiagosimoes1305](https://github.com/thiagosimoes1305)
