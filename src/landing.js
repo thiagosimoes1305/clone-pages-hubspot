@@ -50,6 +50,16 @@ const req = http.request(options, function (res) {
       helper.consoleGetPageID(pageID)
 
       const bodyObject = JSON.parse(bodyString)
+
+      if (
+        process.env.PAGE_LANGUAGE_ID &&
+        bodyObject.language &&
+        bodyObject.language.toLowerCase() !== 'pt' &&
+        bodyObject.language.toLowerCase() !== 'pt-br'
+      ) {
+        bodyObject.translatedFromId = String(process.env.PAGE_LANGUAGE_ID)
+      }
+      
       const objGlobal = {
         id: bodyObject.id,
         slug: bodyObject.slug,
